@@ -1,0 +1,31 @@
+{
+  "name": "clustering_interface",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "bootstrap": "^5.3.3",
+    "canvas-confetti": "^1.9.3",
+    "core-js": "^3.8.3",
+    "echarts": "^5.5.1",
+    "js-cookie": "^3.0.5",
+    "vee-validate": "^4.13.2",
+    "vue": "^3.2.13",
+    "vue-echarts": "^7.0.0-beta.0",
+    "vue-form-generator": "^2.3.4",
+    "vue-router": "^4.0.3",
+    "vuelidate": "^0.7.7",
+    "vuetify": "^3.6.14",
+    "vuex": "^4.1.0",
+    "yup": "^1.4.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-service": "~5.0.0"
+  }
+}

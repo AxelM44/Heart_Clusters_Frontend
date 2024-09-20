@@ -1,0 +1,22 @@
+services:
+  vue-app:
+    container_name: heartcluster
+    image: heartcluster:latest
+
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - ":80"
+    networks:
+      - compute_network
+      - reverseproxy_network
+    restart: unless-stopped
+
+networks:
+  reverseproxy_network:
+    name: reverseproxy_network
+    external: true
+  compute_network:
+    name: compute_network
+    external: true
